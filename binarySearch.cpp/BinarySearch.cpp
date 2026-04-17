@@ -50,3 +50,10 @@ void bubbleSortArray()
     } while (pass <= nPanjang - 1);
 }
 
+void display()
+{
+    for (int i = 0; i < nPanjang; i++)
+    {
+        cout << element[i] << " ";
+    }
+}
